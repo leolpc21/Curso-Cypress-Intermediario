@@ -5,10 +5,10 @@ const faker = require('faker')
 describe('Create Issue',()=>{
 
     const issue = {
-        title: `Gui-issue-${faker.random.uuid()}`,
+        title: `gui-issue-${faker.random.uuid()}`,
         description: faker.random.word(3),
         project:{
-            name: `Gui-project-${faker.random.uuid()}`,
+            name: `gui-project-${faker.random.uuid()}`,
             description: faker.random.word(5)
         }
     }

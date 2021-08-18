@@ -4,7 +4,7 @@ const faker = require('faker')
 
 describe('git clone', () => {
   const project = {
-    name: `project-${faker.random.uuid()}`,
+    name: `cli-project-${faker.random.uuid()}`,
     description: faker.random.words(5)
   }
 
