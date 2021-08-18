@@ -8,9 +8,7 @@ describe('git clone', () => {
     description: faker.random.words(5)
   }
 
-  beforeEach(() => {
-      cy.api_createProject(project)
-  })
+  beforeEach(() => cy.api_createProject(project))
 
   it('successfully', () => {
     cy.cloneViaSSH(project)
