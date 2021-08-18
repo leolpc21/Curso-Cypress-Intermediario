@@ -6,7 +6,7 @@ describe('Create Project', () =>{
     
     it('succesfully', () =>{
         const project = {
-            name: `Api-project-${faker.random.uuid()}`,
+            name: `api-project-${faker.random.uuid()}`,
             description: faker.random.word(5)
         }
         cy.api_createProject(project)

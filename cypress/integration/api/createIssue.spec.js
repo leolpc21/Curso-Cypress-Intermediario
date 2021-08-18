@@ -6,10 +6,10 @@ describe('Create Issue',()=>{
 
     it('succesfully',()=>{
         const issue = {
-            title: `Api-issue-${faker.random.uuid()}`,
+            title: `api-issue-${faker.random.uuid()}`,
             description: faker.random.word(3),
             project:{
-                name: `Api-project-${faker.random.uuid()}`,
+                name: `api-project-${faker.random.uuid()}`,
                 description: faker.random.word(5)
             }
         }
